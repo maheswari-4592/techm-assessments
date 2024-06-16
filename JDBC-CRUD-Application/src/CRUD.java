@@ -26,7 +26,7 @@ public class CRUD {
         System.out.println(studentById);
 
         // Test updating a student
-        studentById.setName("Alice Smith");
+        studentById.setName("krish");
         studentById.setAge(21);
         studentDAO.updateStudent(studentById);
         System.out.println("\nUpdating Student with ID " + studentId + ":");
